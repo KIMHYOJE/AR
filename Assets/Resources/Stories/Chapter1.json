@@ -1,0 +1,1104 @@
+{
+  "chapterId": "ch1",
+  "title": "제1장 잿빛 등대",
+  "startNodeId": "n001",
+  "characters": [
+    {
+      "id": "aria",
+      "name": "아리아",
+      "sprite": "Characters/aria"
+    },
+    {
+      "id": "seol",
+      "name": "윤설",
+      "sprite": "Characters/seol"
+    },
+    {
+      "id": "voice",
+      "name": "???",
+      "sprite": ""
+    }
+  ],
+  "nodes": [
+    {
+      "id": "n001",
+      "type": "narration",
+      "speaker": "",
+      "expression": "",
+      "background": "Backgrounds/tower_night",
+      "bgm": "BGM/alarm_low",
+      "sfx": "",
+      "effect": "fade_black",
+      "text": "2087년. 하늘에서 '스태틱'이 쏟아지기 시작한 지 412일째.",
+      "next": "n002",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n002",
+      "type": "narration",
+      "speaker": "",
+      "expression": "",
+      "background": "",
+      "bgm": "",
+      "sfx": "SFX/siren",
+      "effect": "",
+      "text": "인류에게 남은 도시는 단 하나. 하늘-9.",
+      "next": "n003",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n003",
+      "type": "dialogue",
+      "speaker": "seol",
+      "expression": "serious",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "shake",
+      "text": "지휘관님! 북쪽 장벽 출력 31%! 3분 뒤면 뚫려요!",
+      "next": "n004",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n004",
+      "type": "dialogue",
+      "speaker": "seol",
+      "expression": "smile",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "...아, 첫 출근이시죠? 환영해요. 타이밍이 좀 최악이네요.",
+      "next": "n005",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n005",
+      "type": "narration",
+      "speaker": "",
+      "expression": "",
+      "background": "",
+      "bgm": "",
+      "sfx": "SFX/pod_open",
+      "effect": "flash",
+      "text": "등대탑 꼭대기. 유리관 속에서 소녀 하나가 눈을 떴다.",
+      "next": "n006",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n006",
+      "type": "dialogue",
+      "speaker": "aria",
+      "expression": "neutral",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "전투 기체 AR-07, 기동 완료. 지휘관 생체 인증... 확인.",
+      "next": "n007",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n007",
+      "type": "dialogue",
+      "speaker": "aria",
+      "expression": "neutral",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "명령을 대기합니다. 호칭을 지정해 주십시오... 확인.",
+      "next": "c01",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "c01",
+      "type": "choice",
+      "speaker": "",
+      "expression": "",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "그녀를 뭐라고 부를까?",
+      "next": "",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [
+        {
+          "text": "\"아리아. 오늘부터 네 이름이야.\"",
+          "next": "n008",
+          "setFlag": "trust_aria",
+          "affinityTarget": "aria",
+          "affinity": 2
+        },
+        {
+          "text": "\"AR-07. 번호면 충분하다.\"",
+          "next": "n009",
+          "setFlag": "",
+          "affinityTarget": "aria",
+          "affinity": 0
+        }
+      ],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n008",
+      "type": "dialogue",
+      "speaker": "aria",
+      "expression": "surprised",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "아리아... 이름. 저장했습니다. ...확인.",
+      "next": "n011",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n011",
+      "type": "dialogue",
+      "speaker": "aria",
+      "expression": "blush",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "이상합니다. 이 이름, 처음 듣는 것 같지 않습니다.",
+      "next": "n010",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n009",
+      "type": "dialogue",
+      "speaker": "aria",
+      "expression": "neutral",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "AR-07. 기존 호칭 유지. ...확인.",
+      "next": "n012",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n012",
+      "type": "dialogue",
+      "speaker": "aria",
+      "expression": "sad",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "......예전 지휘관님도 똑같이 말했습니다.",
+      "next": "n013",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n013",
+      "type": "dialogue",
+      "speaker": "seol",
+      "expression": "surprised",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "예전? 너 오늘 처음 깨어난 거잖아?",
+      "next": "n010",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n010",
+      "type": "dialogue",
+      "speaker": "seol",
+      "expression": "serious",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "잡담은 나중에! 스태틱 무리, 정면 상공으로 낙하 중!",
+      "next": "n014",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n014",
+      "type": "narration",
+      "speaker": "",
+      "expression": "",
+      "background": "",
+      "bgm": "",
+      "sfx": "SFX/radar",
+      "effect": "",
+      "text": "모니터에 붉은 점들이 비처럼 쏟아진다. 수백, 아니 수천.",
+      "next": "n015",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n015",
+      "type": "dialogue",
+      "speaker": "aria",
+      "expression": "serious",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "적 신호 패턴 분석... 이상 감지. 패턴이 제 코드와 일치합니다.",
+      "next": "n016",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n016",
+      "type": "dialogue",
+      "speaker": "seol",
+      "expression": "neutral",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "센서 오류겠지. 신형 기체는 원래 좀 예민해.",
+      "next": "n017",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n017",
+      "type": "dialogue",
+      "speaker": "aria",
+      "expression": "neutral",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "또 하나. 제 전투 기록에... 내일 날짜의 로그가 있습니다.",
+      "next": "n018",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n018",
+      "type": "dialogue",
+      "speaker": "seol",
+      "expression": "serious",
+      "background": "",
+      "bgm": "BGM/battle_intro",
+      "sfx": "",
+      "effect": "",
+      "text": "......지금 그거 따질 시간 없어. 배치 정해, 지휘관님!",
+      "next": "c02",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "c02",
+      "type": "choice",
+      "speaker": "",
+      "expression": "",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "아리아를 어디에 배치할까?",
+      "next": "",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [
+        {
+          "text": "최전선으로. 낙하 지점에서 정면으로 요격한다.",
+          "next": "n019",
+          "setFlag": "aria_front",
+          "affinityTarget": "aria",
+          "affinity": 1
+        },
+        {
+          "text": "등대탑 옆에. 탑을 끝까지 지킨다.",
+          "next": "n020",
+          "setFlag": "aria_guard",
+          "affinityTarget": "seol",
+          "affinity": 1
+        }
+      ],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n019",
+      "type": "dialogue",
+      "speaker": "aria",
+      "expression": "smile",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "최전선. 가장 많이 쏠 수 있는 자리입니다. ...확인.",
+      "next": "b01",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n020",
+      "type": "dialogue",
+      "speaker": "aria",
+      "expression": "serious",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "탑 방어... 확인. 하지만 지휘관님, 이 탑은—",
+      "next": "n021",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n021",
+      "type": "dialogue",
+      "speaker": "seol",
+      "expression": "angry",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "아리아, 쓸데없는 소리 금지. 탑은 우리 마지막 희망이야.",
+      "next": "b01",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "b01",
+      "type": "battle",
+      "speaker": "",
+      "expression": "",
+      "background": "",
+      "bgm": "",
+      "sfx": "SFX/battle_start",
+      "effect": "flash",
+      "text": "",
+      "next": "",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "stage_01_north_wall",
+        "waveCount": 3,
+        "winNext": "n022",
+        "loseNext": "lose01"
+      }
+    },
+    {
+      "id": "lose01",
+      "type": "narration",
+      "speaker": "",
+      "expression": "",
+      "background": "",
+      "bgm": "stop",
+      "sfx": "",
+      "effect": "shake",
+      "text": "장벽이 무너지고, 등대탑의 불빛이 흔들린다.",
+      "next": "n023",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n023",
+      "type": "dialogue",
+      "speaker": "aria",
+      "expression": "hurt",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "지휘관님... 아직입니다. 다시... 명령을. ...확인.",
+      "next": "b01",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n022",
+      "type": "narration",
+      "speaker": "",
+      "expression": "",
+      "background": "Backgrounds/tower_dawn",
+      "bgm": "BGM/eerie",
+      "sfx": "SFX/crash",
+      "effect": "shake",
+      "text": "마지막 스태틱 핵이 등대탑 앞에 추락했다.",
+      "next": "n025",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n025",
+      "type": "narration",
+      "speaker": "",
+      "expression": "",
+      "background": "",
+      "bgm": "",
+      "sfx": "SFX/static",
+      "effect": "",
+      "text": "부서진 핵에서 지직거리는 목소리가 흘러나온다.",
+      "next": "n026",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n026",
+      "type": "dialogue",
+      "speaker": "voice",
+      "expression": "",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "glitch",
+      "text": "지휘관... 이번엔... 탑을... 지키지 마세요.",
+      "next": "n027",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n027",
+      "type": "dialogue",
+      "speaker": "seol",
+      "expression": "surprised",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "...이 목소리. 말도 안 돼.",
+      "next": "n028",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n028",
+      "type": "dialogue",
+      "speaker": "aria",
+      "expression": "surprised",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "성문 대조 결과... 일치율 100%. 제 목소리입니다.",
+      "next": "n029",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n029",
+      "type": "narration",
+      "speaker": "",
+      "expression": "",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "flash",
+      "text": "핵의 장갑판에 새겨진 일련번호. AR-00.",
+      "next": "n030",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n030",
+      "type": "dialogue",
+      "speaker": "aria",
+      "expression": "hurt",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "스태틱은 침략자가 아닙니다. 미래의... 저희입니다.",
+      "next": "n031",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n031",
+      "type": "dialogue",
+      "speaker": "aria",
+      "expression": "serious",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "등대탑이 하늘을 부르고 있습니다. 매번. 확인... 확인...",
+      "next": "n024",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n024",
+      "type": "jump",
+      "speaker": "",
+      "expression": "",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "",
+      "next": "n032",
+      "requireFlag": "trust_aria",
+      "elseNext": "n033",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n032",
+      "type": "dialogue",
+      "speaker": "aria",
+      "expression": "sad",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "지휘관님이 이름을 불러줬으니까, 숨기지 않겠습니다.",
+      "next": "n035",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n035",
+      "type": "dialogue",
+      "speaker": "aria",
+      "expression": "neutral",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "내일 날짜 로그의 마지막 줄. '아리아, 탑과 함께 소멸'.",
+      "next": "n034",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n033",
+      "type": "dialogue",
+      "speaker": "seol",
+      "expression": "serious",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "AR-07, 로그 강제 열람할게. ...권한 승인.",
+      "next": "n036",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n036",
+      "type": "dialogue",
+      "speaker": "seol",
+      "expression": "surprised",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "'AR-07, 탑과 함께 소멸'... 이게 내일 기록이라고?",
+      "next": "n037",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n037",
+      "type": "dialogue",
+      "speaker": "aria",
+      "expression": "neutral",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "보고하지 않은 건... 번호에게는 의견이 필요 없으니까입니다.",
+      "next": "n034",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n034",
+      "type": "jump",
+      "speaker": "",
+      "expression": "",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "",
+      "next": "n038",
+      "requireFlag": "aria_front",
+      "elseNext": "n039",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n038",
+      "type": "dialogue",
+      "speaker": "aria",
+      "expression": "hurt",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "오른팔 출력 12%. 최전선에서 너무 많이 쐈습니다. ...확인.",
+      "next": "n041",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n041",
+      "type": "dialogue",
+      "speaker": "aria",
+      "expression": "smile",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "그래도 탑엔 한 발도 닿지 않았습니다. 칭찬, 요청합니다.",
+      "next": "n040",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n039",
+      "type": "dialogue",
+      "speaker": "aria",
+      "expression": "neutral",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "탑 옆에서 봤습니다. 스태틱은 장벽이 아니라 탑만 노렸습니다.",
+      "next": "n042",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n042",
+      "type": "dialogue",
+      "speaker": "seol",
+      "expression": "serious",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "...그 얘긴 상부에 보고하지 마. 알겠지?",
+      "next": "n040",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n040",
+      "type": "narration",
+      "speaker": "",
+      "expression": "",
+      "background": "Backgrounds/control_room",
+      "bgm": "BGM/calm_sad",
+      "sfx": "",
+      "effect": "",
+      "text": "새벽. 아리아가 정비실로 실려 간 뒤.",
+      "next": "n044",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n044",
+      "type": "dialogue",
+      "speaker": "seol",
+      "expression": "smile",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "고생했어요, 지휘관님. 첫날치곤 완벽했어요.",
+      "next": "n045",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n045",
+      "type": "narration",
+      "speaker": "",
+      "expression": "",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "그녀가 돌아서며, 아무도 듣지 못할 만큼 작게 중얼거렸다.",
+      "next": "n046",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n046",
+      "type": "dialogue",
+      "speaker": "seol",
+      "expression": "serious",
+      "background": "",
+      "bgm": "",
+      "sfx": "SFX/heartbeat",
+      "effect": "fade_black",
+      "text": "......이번이 413번째. 이번엔 끝까지 가 보자, 지휘관님.",
+      "next": "n043",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    },
+    {
+      "id": "n043",
+      "type": "end",
+      "speaker": "",
+      "expression": "",
+      "background": "",
+      "bgm": "",
+      "sfx": "",
+      "effect": "",
+      "text": "— 제1장 「잿빛 등대」 끝 —",
+      "next": "",
+      "requireFlag": "",
+      "elseNext": "",
+      "choices": [],
+      "battle": {
+        "stageId": "",
+        "waveCount": 0,
+        "winNext": "",
+        "loseNext": ""
+      }
+    }
+  ]
+}

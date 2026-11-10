@@ -1,0 +1,60 @@
+# Keep Claude's context small: never read generated / binary / vendor content.
+
+# Unity generated
+Library/
+Temp/
+Logs/
+Obj/
+obj/
+UserSettings/
+Build/
+Builds/
+MemoryCaptures/
+Recordings/
+**/Library/
+**/Temp/
+**/Logs/
+**/Obj/
+
+# Dependencies
+node_modules/
+**/node_modules/
+__pycache__/
+.venv/
+
+# IDE / solution files
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.slnx
+
+# Unity binary / heavy assets (search them by name with the everything-search skill instead)
+*.meta
+*.unity
+*.prefab
+*.asset
+*.mat
+*.anim
+*.controller
+*.png
+*.jpg
+*.jpeg
+*.psd
+*.wav
+*.mp3
+*.ogg
+*.fbx
+*.ttf
+*.otf
+*.apk
+*.aab
+*.unitypackage
+
+# pixelfx renders and gallery binaries (the .js effect sources stay readable)
+Tools/pixelfx/records/
+Tools/pixelfx/sheets/
+Tools/pixelfx/gallery/
+Tools/pixelfx/docs/readme/
+Tools/pixelfx/.git/

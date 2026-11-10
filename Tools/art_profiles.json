@@ -1,0 +1,28 @@
+{
+  "_comment": "Character design sheets for fetch_art / sync_story_assets. Keep 'prompt' identical across expressions; same seed = consistent look.",
+  "characters": {
+    "aria": {
+      "prompt": "original character, silver-haired android girl, long ponytail, glowing blue visor, white and navy combat suit",
+      "seed": 707
+    },
+    "seol": {
+      "prompt": "original character, young woman operator, short black bob hair, headset, dark green military uniform jacket, ID badge",
+      "seed": 1313
+    }
+  },
+  "expressions": {
+    "neutral": "calm neutral expression",
+    "smile": "gentle smile",
+    "angry": "angry frown",
+    "sad": "sad expression, lowered eyes",
+    "surprised": "surprised, wide eyes",
+    "serious": "serious determined expression",
+    "hurt": "injured, pained expression, damaged suit",
+    "blush": "blushing, embarrassed"
+  },
+  "backgrounds": {
+    "tower_night": "ruined futuristic city at night, tall lighthouse tower emitting a beam into a stormy static-filled sky",
+    "tower_dawn": "ruined futuristic city at dawn, damaged lighthouse tower, smoke, wreckage of a fallen machine",
+    "control_room": "dim military control room, many monitors, blue screen glow, night"
+  }
+}

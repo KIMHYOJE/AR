@@ -1,0 +1,24 @@
+* text=auto
+
+# Shell scripts must keep LF or bash breaks
+*.sh text eol=lf
+*.py text eol=lf
+
+# Unity YAML: let Unity's own merge tool handle conflicts
+*.unity    text merge=unityyamlmerge eol=lf
+*.prefab   text merge=unityyamlmerge eol=lf
+*.asset    text merge=unityyamlmerge eol=lf
+*.meta     text eol=lf
+*.mat      text eol=lf
+*.anim     text eol=lf
+*.controller text eol=lf
+
+# Binary
+*.png binary
+*.jpg binary
+*.psd binary
+*.wav binary
+*.ogg binary
+*.mp3 binary
+*.ttf binary
+*.otf binary

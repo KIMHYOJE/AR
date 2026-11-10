@@ -1,0 +1,2368 @@
+fileFormatVersion: 2
+guid: 449a63c8e64af69408260ba238141399
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9095081878527658411
+    second: bullet-impact_0
+  - first:
+      213: -7055614183709163134
+    second: bullet-impact_1
+  - first:
+      213: -6963587658236107875
+    second: bullet-impact_2
+  - first:
+      213: 2368311390850130813
+    second: bullet-impact_3
+  - first:
+      213: 308772437253031868
+    second: bullet-impact_4
+  - first:
+      213: 3240063618509734294
+    second: bullet-impact_5
+  - first:
+      213: 3643066259823116607
+    second: bullet-impact_6
+  - first:
+      213: -885899050207349202
+    second: bullet-impact_7
+  - first:
+      213: -4486826497278846715
+    second: bullet-impact_8
+  - first:
+      213: 1440287754682402070
+    second: bullet-impact_9
+  - first:
+      213: -3037725946752299728
+    second: bullet-impact_10
+  - first:
+      213: -8108635582672636281
+    second: bullet-impact_11
+  - first:
+      213: -3356067474987354622
+    second: bullet-impact_12
+  - first:
+      213: -12439091558086221
+    second: bullet-impact_13
+  - first:
+      213: -3939613214988413740
+    second: bullet-impact_14
+  - first:
+      213: -6054994070617108579
+    second: bullet-impact_15
+  - first:
+      213: 2247140559569969885
+    second: bullet-impact_16
+  - first:
+      213: -3856506099203570616
+    second: bullet-impact_17
+  - first:
+      213: 6694135554595974101
+    second: bullet-impact_18
+  - first:
+      213: 5439078511952019875
+    second: bullet-impact_19
+  - first:
+      213: -5953325409296676024
+    second: bullet-impact_20
+  - first:
+      213: 3581297183627450409
+    second: bullet-impact_21
+  - first:
+      213: -3398305285849908375
+    second: bullet-impact_22
+  - first:
+      213: -5172875614453767474
+    second: bullet-impact_23
+  - first:
+      213: -6507449177734080342
+    second: bullet-impact_24
+  - first:
+      213: 1397910800898183437
+    second: bullet-impact_25
+  - first:
+      213: 5284700535801768781
+    second: bullet-impact_26
+  - first:
+      213: -8488957400380708710
+    second: bullet-impact_27
+  - first:
+      213: 4566200678054520034
+    second: bullet-impact_28
+  - first:
+      213: -31780785886157247
+    second: bullet-impact_29
+  - first:
+      213: 4409683786789883661
+    second: bullet-impact_30
+  - first:
+      213: -1394757721734364750
+    second: bullet-impact_31
+  - first:
+      213: -7902146478266932277
+    second: bullet-impact_32
+  - first:
+      213: 3732335223936906205
+    second: bullet-impact_33
+  - first:
+      213: -6827427495172810781
+    second: bullet-impact_34
+  - first:
+      213: -6484811455731782707
+    second: bullet-impact_35
+  - first:
+      213: -905674943006544427
+    second: bullet-impact_36
+  - first:
+      213: 115174850352994693
+    second: bullet-impact_37
+  - first:
+      213: 6008456703836115506
+    second: bullet-impact_38
+  - first:
+      213: -5817727751987894109
+    second: bullet-impact_39
+  - first:
+      213: 6762001222672169329
+    second: bullet-impact_40
+  - first:
+      213: -8626777260818928395
+    second: bullet-impact_41
+  - first:
+      213: -2908987902996211518
+    second: bullet-impact_42
+  - first:
+      213: -140225993691261738
+    second: bullet-impact_43
+  - first:
+      213: 7366461813487059695
+    second: bullet-impact_44
+  - first:
+      213: 1370799324981307694
+    second: bullet-impact_45
+  - first:
+      213: -4573771723348303372
+    second: bullet-impact_46
+  - first:
+      213: 2430391106790980539
+    second: bullet-impact_47
+  - first:
+      213: -2955976846395438225
+    second: bullet-impact_48
+  - first:
+      213: 4601599028838202049
+    second: bullet-impact_49
+  - first:
+      213: -4046666531623606437
+    second: bullet-impact_50
+  - first:
+      213: 6383448367809878106
+    second: bullet-impact_51
+  - first:
+      213: -8701890091339392401
+    second: bullet-impact_52
+  - first:
+      213: -8917334142535683657
+    second: bullet-impact_53
+  - first:
+      213: 4240471815845940274
+    second: bullet-impact_54
+  - first:
+      213: -410917578576466356
+    second: bullet-impact_55
+  - first:
+      213: 4670250807616302516
+    second: bullet-impact_56
+  - first:
+      213: -8007899258101145067
+    second: bullet-impact_57
+  - first:
+      213: 7640109752369077431
+    second: bullet-impact_58
+  - first:
+      213: -5189070137179765142
+    second: bullet-impact_59
+  - first:
+      213: -2729247747660178872
+    second: bullet-impact_60
+  - first:
+      213: 3640751745834566808
+    second: bullet-impact_61
+  - first:
+      213: 2307574778513019520
+    second: bullet-impact_62
+  - first:
+      213: -9186366634752743095
+    second: bullet-impact_63
+  - first:
+      213: 6045885231320120073
+    second: bullet-impact_64
+  - first:
+      213: -1507141909924260749
+    second: bullet-impact_65
+  - first:
+      213: -3036531990860380515
+    second: bullet-impact_66
+  - first:
+      213: 6836850129462053224
+    second: bullet-impact_67
+  - first:
+      213: -7791001714705393748
+    second: bullet-impact_68
+  - first:
+      213: 2486927059992763120
+    second: bullet-impact_69
+  - first:
+      213: 5807832090694087332
+    second: bullet-impact_70
+  - first:
+      213: -1921327083596610832
+    second: bullet-impact_71
+  - first:
+      213: -1916145629870822319
+    second: bullet-impact_72
+  - first:
+      213: 3511746607327622799
+    second: bullet-impact_73
+  - first:
+      213: 8819049604094445100
+    second: bullet-impact_74
+  - first:
+      213: 3109992285525368938
+    second: bullet-impact_75
+  - first:
+      213: -3916212861587997242
+    second: bullet-impact_76
+  - first:
+      213: -1873801789202152594
+    second: bullet-impact_77
+  - first:
+      213: 6188215274121888141
+    second: bullet-impact_78
+  - first:
+      213: 3541396929426134944
+    second: bullet-impact_79
+  - first:
+      213: -4235550057436595136
+    second: bullet-impact_80
+  - first:
+      213: 4514542475767276387
+    second: bullet-impact_81
+  - first:
+      213: -3010528802207357116
+    second: bullet-impact_82
+  - first:
+      213: -1120900205698693939
+    second: bullet-impact_83
+  - first:
+      213: -7375514164298666455
+    second: bullet-impact_84
+  - first:
+      213: -563878734758803872
+    second: bullet-impact_85
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bullet-impact_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 703
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55634432837c7c180800000000000000
+      internalID: -9095081878527658411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_1
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 705
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281cecb384c651e90800000000000000
+      internalID: -7055614183709163134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_2
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 709
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93ea846bed5c5f90800000000000000
+      internalID: -6963587658236107875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_3
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 712
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73222189aeedd020800000000000000
+      internalID: 2368311390850130813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_4
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 756
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb706ee45eaf84400800000000000000
+      internalID: 308772437253031868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_5
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 716
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69180f6c1b407fc20800000000000000
+      internalID: 3240063618509734294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_6
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 760
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31c7f52675ce8230800000000000000
+      internalID: 3643066259823116607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_7
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 746
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26f88de187a4b3f0800000000000000
+      internalID: -885899050207349202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_8
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 722
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50952eca2179bb1c0800000000000000
+      internalID: -4486826497278846715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_9
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 738
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6158038f41eecf310800000000000000
+      internalID: 1440287754682402070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_10
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 737
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d87d29854d7d5d0800000000000000
+      internalID: -3037725946752299728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_11
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 721
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78674b126e6587f80800000000000000
+      internalID: -8108635582672636281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_12
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 714
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206f227a96adc61d0800000000000000
+      internalID: -3356067474987354622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_13
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 714
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b90a5e46bec3dff0800000000000000
+      internalID: -12439091558086221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_14
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 716
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d45e2867aea359c0800000000000000
+      internalID: -3939613214988413740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_15
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 663
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f45c739f658fba0800000000000000
+      internalID: -6054994070617108579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_16
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 665
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd26a8dde627f2f10800000000000000
+      internalID: 2247140559569969885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_17
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 648
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84408daa220fa7ac0800000000000000
+      internalID: -3856506099203570616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_18
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 647
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db6102e1d856ec50800000000000000
+      internalID: 6694135554595974101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_19
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 652
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a14c52d61d7b7b40800000000000000
+      internalID: 5439078511952019875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_20
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 622
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b8092151a816da0800000000000000
+      internalID: -5953325409296676024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_21
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 648
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928983160d253b130800000000000000
+      internalID: 3581297183627450409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_22
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 652
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b7596f85bc6d0d0800000000000000
+      internalID: -3398305285849908375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_23
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 653
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2e33529014638b0800000000000000
+      internalID: -5172875614453767474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_24
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 648
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa890476375e0b5a0800000000000000
+      internalID: -6507449177734080342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_25
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 647
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01d73b8770666310800000000000000
+      internalID: 1397910800898183437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_26
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 636
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4be7c44327075940800000000000000
+      internalID: 5284700535801768781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_27
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 616
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9862e4883a213a80800000000000000
+      internalID: -8488957400380708710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_28
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 628
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4669ce2576e5f30800000000000000
+      internalID: 4566200678054520034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_29
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 613
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146a29a2b871f8ff0800000000000000
+      internalID: -31780785886157247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_30
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 642
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0f09636a08523d30800000000000000
+      internalID: 4409683786789883661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_31
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 635
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b14a48ed33d4ace0800000000000000
+      internalID: -1394757721734364750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_32
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 613
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3abc735afe55290800000000000000
+      internalID: -7902146478266932277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_33
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 628
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3ff658c1bebc330800000000000000
+      internalID: 3732335223936906205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_34
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 641
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e75d7ccdda1041a0800000000000000
+      internalID: -6827427495172810781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_35
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 614
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb29b9c6525106a0800000000000000
+      internalID: -6484811455731782707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 630
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd6f1410756e63f0800000000000000
+      internalID: -905674943006544427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_37
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 633
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589595a8aee299100800000000000000
+      internalID: 115174850352994693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_38
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 613
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2325778b983526350800000000000000
+      internalID: 6008456703836115506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_39
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a864d6ee67434fa0800000000000000
+      internalID: -5817727751987894109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_40
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 615
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179b120194477dd50800000000000000
+      internalID: 6762001222672169329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_41
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 630
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc6874b9c7874880800000000000000
+      internalID: -8626777260818928395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_42
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 631
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8900a2ae231a7d0800000000000000
+      internalID: -2908987902996211518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_43
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 614
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d491c1a331dd0ef0800000000000000
+      internalID: -140225993691261738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_44
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 630
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2406c7dfdea3660800000000000000
+      internalID: 7366461813487059695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_45
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 629
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e292bd729be060310800000000000000
+      internalID: 1370799324981307694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_46
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 614
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1291ab9d2b680c0800000000000000
+      internalID: -4573771723348303372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_47
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 630
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb7b89b5db7ab120800000000000000
+      internalID: 2430391106790980539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_48
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 616
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b025a38b24af6d0800000000000000
+      internalID: -2955976846395438225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_49
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 614
+        width: 58
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cafea8bfe92cdf30800000000000000
+      internalID: 4601599028838202049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_50
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 514
+        width: 69
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57ec1aca3a57d7c0800000000000000
+      internalID: -4046666531623606437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_51
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 544
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58da553870969850800000000000000
+      internalID: 6383448367809878106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_52
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 514
+        width: 70
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a5937011dac3780800000000000000
+      internalID: -8701890091339392401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_53
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 514
+        width: 70
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1b2bae7d34f3480800000000000000
+      internalID: -8917334142535683657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_54
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 532
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c8d8746ae29da30800000000000000
+      internalID: 4240471815845940274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_55
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 514
+        width: 70
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e6cf0b3a02c4af0800000000000000
+      internalID: -410917578576466356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_56
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 514
+        width: 69
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd63ff8d5010d040800000000000000
+      internalID: 4670250807616302516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_57
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 514
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51264cb6d0a3ed090800000000000000
+      internalID: -8007899258101145067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_58
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 414
+        width: 69
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcd4fa375f170a60800000000000000
+      internalID: 7640109752369077431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_59
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 414
+        width: 69
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6600def338bcf7b0800000000000000
+      internalID: -5189070137179765142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_60
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 414
+        width: 69
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a1ea832a3cf1ad0800000000000000
+      internalID: -2729247747660178872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_61
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 414
+        width: 68
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8944add5c6c868230800000000000000
+      internalID: 3640751745834566808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_62
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 414
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0825be5f807260020800000000000000
+      internalID: 2307574778513019520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_63
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 444
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949ef079738738080800000000000000
+      internalID: -9186366634752743095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_64
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 415
+        width: 68
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90bbd9dd59c47e350800000000000000
+      internalID: 6045885231320120073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_65
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 444
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3745cd80b6e851be0800000000000000
+      internalID: -1507141909924260749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_66
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 345
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9648a71e321cd5d0800000000000000
+      internalID: -3036531990860380515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_67
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 345
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8694b2538fe51ee50800000000000000
+      internalID: 6836850129462053224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_68
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 345
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7968e083dc0e390800000000000000
+      internalID: -7791001714705393748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_69
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 346
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fadc291cf6538220800000000000000
+      internalID: 2486927059992763120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_70
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 346
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a27fe8e380999050800000000000000
+      internalID: 5807832090694087332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_71
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 346
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f203e472331655e0800000000000000
+      internalID: -1921327083596610832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_72
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 247
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ce1a9a3bb7865e0800000000000000
+      internalID: -1916145629870822319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_73
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 333
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8632feeeea3cb030800000000000000
+      internalID: 3511746607327622799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_74
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 134
+        width: 8
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26499cb3ee836a70800000000000000
+      internalID: 8819049604094445100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_75
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 247
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60e1f89189e82b20800000000000000
+      internalID: 3109992285525368938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_76
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 333
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd3b30c621d6a9c0800000000000000
+      internalID: -3916212861587997242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_77
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 134
+        width: 8
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e634d17533beef5e0800000000000000
+      internalID: -1873801789202152594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_78
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 248
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d818ea75105f0e550800000000000000
+      internalID: 6188215274121888141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_79
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 333
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a79a138eb1952130800000000000000
+      internalID: 3541396929426134944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_80
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 234
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c3b16e9ad4835c0800000000000000
+      internalID: -4235550057436595136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_81
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 333
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363658f6670e6ae30800000000000000
+      internalID: 4514542475767276387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_82
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 234
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447295e31047836d0800000000000000
+      internalID: -3010528802207357116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_83
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 333
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4caa2a333c170f0800000000000000
+      internalID: -1120900205698693939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_84
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 234
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ead19d1f8e4a990800000000000000
+      internalID: -7375514164298666455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-impact_85
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 234
+        width: 8
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0660e4e3743bc28f0800000000000000
+      internalID: -563878734758803872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bullet-impact_0: -9095081878527658411
+      bullet-impact_1: -7055614183709163134
+      bullet-impact_10: -3037725946752299728
+      bullet-impact_11: -8108635582672636281
+      bullet-impact_12: -3356067474987354622
+      bullet-impact_13: -12439091558086221
+      bullet-impact_14: -3939613214988413740
+      bullet-impact_15: -6054994070617108579
+      bullet-impact_16: 2247140559569969885
+      bullet-impact_17: -3856506099203570616
+      bullet-impact_18: 6694135554595974101
+      bullet-impact_19: 5439078511952019875
+      bullet-impact_2: -6963587658236107875
+      bullet-impact_20: -5953325409296676024
+      bullet-impact_21: 3581297183627450409
+      bullet-impact_22: -3398305285849908375
+      bullet-impact_23: -5172875614453767474
+      bullet-impact_24: -6507449177734080342
+      bullet-impact_25: 1397910800898183437
+      bullet-impact_26: 5284700535801768781
+      bullet-impact_27: -8488957400380708710
+      bullet-impact_28: 4566200678054520034
+      bullet-impact_29: -31780785886157247
+      bullet-impact_3: 2368311390850130813
+      bullet-impact_30: 4409683786789883661
+      bullet-impact_31: -1394757721734364750
+      bullet-impact_32: -7902146478266932277
+      bullet-impact_33: 3732335223936906205
+      bullet-impact_34: -6827427495172810781
+      bullet-impact_35: -6484811455731782707
+      bullet-impact_36: -905674943006544427
+      bullet-impact_37: 115174850352994693
+      bullet-impact_38: 6008456703836115506
+      bullet-impact_39: -5817727751987894109
+      bullet-impact_4: 308772437253031868
+      bullet-impact_40: 6762001222672169329
+      bullet-impact_41: -8626777260818928395
+      bullet-impact_42: -2908987902996211518
+      bullet-impact_43: -140225993691261738
+      bullet-impact_44: 7366461813487059695
+      bullet-impact_45: 1370799324981307694
+      bullet-impact_46: -4573771723348303372
+      bullet-impact_47: 2430391106790980539
+      bullet-impact_48: -2955976846395438225
+      bullet-impact_49: 4601599028838202049
+      bullet-impact_5: 3240063618509734294
+      bullet-impact_50: -4046666531623606437
+      bullet-impact_51: 6383448367809878106
+      bullet-impact_52: -8701890091339392401
+      bullet-impact_53: -8917334142535683657
+      bullet-impact_54: 4240471815845940274
+      bullet-impact_55: -410917578576466356
+      bullet-impact_56: 4670250807616302516
+      bullet-impact_57: -8007899258101145067
+      bullet-impact_58: 7640109752369077431
+      bullet-impact_59: -5189070137179765142
+      bullet-impact_6: 3643066259823116607
+      bullet-impact_60: -2729247747660178872
+      bullet-impact_61: 3640751745834566808
+      bullet-impact_62: 2307574778513019520
+      bullet-impact_63: -9186366634752743095
+      bullet-impact_64: 6045885231320120073
+      bullet-impact_65: -1507141909924260749
+      bullet-impact_66: -3036531990860380515
+      bullet-impact_67: 6836850129462053224
+      bullet-impact_68: -7791001714705393748
+      bullet-impact_69: 2486927059992763120
+      bullet-impact_7: -885899050207349202
+      bullet-impact_70: 5807832090694087332
+      bullet-impact_71: -1921327083596610832
+      bullet-impact_72: -1916145629870822319
+      bullet-impact_73: 3511746607327622799
+      bullet-impact_74: 8819049604094445100
+      bullet-impact_75: 3109992285525368938
+      bullet-impact_76: -3916212861587997242
+      bullet-impact_77: -1873801789202152594
+      bullet-impact_78: 6188215274121888141
+      bullet-impact_79: 3541396929426134944
+      bullet-impact_8: -4486826497278846715
+      bullet-impact_80: -4235550057436595136
+      bullet-impact_81: 4514542475767276387
+      bullet-impact_82: -3010528802207357116
+      bullet-impact_83: -1120900205698693939
+      bullet-impact_84: -7375514164298666455
+      bullet-impact_85: -563878734758803872
+      bullet-impact_9: 1440287754682402070
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

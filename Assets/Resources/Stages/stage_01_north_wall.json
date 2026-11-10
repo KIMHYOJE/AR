@@ -1,0 +1,43 @@
+{
+  "stageId": "stage_01_north_wall",
+  "title": "북쪽 장벽 방어전",
+  "background": "Backgrounds/tower_night",
+  "bgm": "BGM/battle_01",
+  "baseHp": 20,
+  "enemies": [
+    { "id": "static_mote", "hp": 2, "speed": 0.14, "damage": 1, "score": 10, "radius": 0.03,
+      "movement": "straight", "sprite": "Enemies/static_mote", "deathVfx": "impacts/bullet-impact" },
+    { "id": "static_weaver", "hp": 5, "speed": 0.10, "damage": 2, "score": 30, "radius": 0.04,
+      "movement": "sine", "sprite": "Enemies/static_weaver", "deathVfx": "impacts/bullet-impact" },
+    { "id": "static_lantern", "hp": 40, "speed": 0.08, "damage": 5, "score": 300, "radius": 0.08,
+      "movement": "hover", "sprite": "Enemies/static_lantern", "deathVfx": "explosions/big-explosion" }
+  ],
+  "patterns": [
+    { "id": "aimed_single", "type": "aimed", "bullets": 1, "spreadDeg": 0, "speed": 0.30, "interval": 2.4,
+      "burst": 1, "burstGap": 0.0, "rotatePerShotDeg": 0, "bulletSprite": "Bullets/orb_red", "radius": 0.012 },
+    { "id": "aimed_3", "type": "aimed", "bullets": 3, "spreadDeg": 40, "speed": 0.32, "interval": 2.0,
+      "burst": 1, "burstGap": 0.0, "rotatePerShotDeg": 0, "bulletSprite": "Bullets/orb_red", "radius": 0.012 },
+    { "id": "lantern_spiral", "type": "spiral", "bullets": 8, "spreadDeg": 360, "speed": 0.24, "interval": 1.1,
+      "burst": 1, "burstGap": 0.0, "rotatePerShotDeg": 17, "bulletSprite": "Bullets/orb_violet", "radius": 0.014 }
+  ],
+  "waves": [
+    { "startTime": 2.0, "spawns": [
+      { "enemyId": "static_mote", "count": 6, "interval": 0.6, "formation": "line", "x": 0.5, "width": 0.7,
+        "pattern": "", "hoverY": 0.0 },
+      { "enemyId": "static_mote", "count": 4, "interval": 0.8, "formation": "random", "x": 0.5, "width": 0.8,
+        "pattern": "aimed_single", "hoverY": 0.0 }
+    ] },
+    { "startTime": 12.0, "spawns": [
+      { "enemyId": "static_weaver", "count": 4, "interval": 1.2, "formation": "v", "x": 0.5, "width": 0.6,
+        "pattern": "aimed_3", "hoverY": 0.0 },
+      { "enemyId": "static_mote", "count": 8, "interval": 0.5, "formation": "column", "x": 0.2, "width": 0.0,
+        "pattern": "", "hoverY": 0.0 }
+    ] },
+    { "startTime": 24.0, "spawns": [
+      { "enemyId": "static_lantern", "count": 1, "interval": 0.0, "formation": "column", "x": 0.5, "width": 0.0,
+        "pattern": "lantern_spiral", "hoverY": 0.7 },
+      { "enemyId": "static_mote", "count": 6, "interval": 1.5, "formation": "random", "x": 0.5, "width": 0.9,
+        "pattern": "", "hoverY": 0.0 }
+    ] }
+  ]
+}
