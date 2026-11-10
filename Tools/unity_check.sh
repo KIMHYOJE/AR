@@ -7,8 +7,17 @@
 set -uo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 MODE="${1:-auto}"
-EDITOR_LOG="${LOCALAPPDATA:-$HOME/AppData/Local}/Unity/Editor/Editor.log"
+# Unity 6.x writes the live editor log into the project's Logs/ folder; older versions use %LOCALAPPDATA%.
+EDITOR_LOG="$ROOT/Logs/Editor.log"
+[ -f "$EDITOR_LOG" ] || EDITOR_LOG="${LOCALAPPDATA:-$HOME/AppData/Local}/Unity/Editor/Editor.log"
 BATCH_LOG="$ROOT/Logs/batch_compile.log"
+MARK_FILE="$ROOT/Temp/unity_check.mark"
+
+if [ "$MODE" = "--mark" ]; then
+  # remember the current end of the editor log; the next --log only reports lines written after this
+  mkdir -p "$ROOT/Temp"; wc -l < "$EDITOR_LOG" | tr -d ' ' > "$MARK_FILE"
+  echo "marked $EDITOR_LOG at line $(cat "$MARK_FILE")"; exit 0
+fi
 
 if [ ! -f "$ROOT/ProjectSettings/ProjectVersion.txt" ]; then
   echo "Not a Unity project yet (ProjectSettings/ProjectVersion.txt missing). Create the project first."
@@ -45,6 +54,11 @@ EDITOR_OPEN=0
 
 if [ "$MODE" = "--log" ] || { [ "$MODE" = "auto" ] && [ $EDITOR_OPEN = 1 ]; }; then
   echo "Reading live editor log: $EDITOR_LOG (save scripts and let the editor recompile first)"
+  if [ -f "$MARK_FILE" ]; then
+    tail -n +"$(( $(cat "$MARK_FILE") + 1 ))" "$EDITOR_LOG" > "$ROOT/Temp/unity_check.tail.log"
+    echo "(only lines after the last --mark)"
+    report "$ROOT/Temp/unity_check.tail.log"; exit $?
+  fi
   report "$EDITOR_LOG"; exit $?
 fi
 

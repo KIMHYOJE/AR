@@ -5,6 +5,20 @@ description: Rules and patterns for writing C# for this Unity 6 (6000.x) 2D URP 
 
 # Unity 6 coding rules (2D URP, mobile portrait + PC)
 
+## Existing architecture (read before adding code)
+- Assemblies: `Assets/Scripts/AR.Runtime.asmdef` (all runtime code) and `Assets/Scripts/Editor/AR.Editor.asmdef`.
+  New packages must be added to the asmdef `references`, or the code will not see them.
+- `Main.unity` contains only a camera + `GameFlow`; every system is built in code. Flow: `StoryPlayer.PlayAsync` →
+  battle node → `BattleController.RunAsync(stageId)` → `winNext/loseNext`.
+- Assets load by address through `AR.Core.AssetLoader` (Addressables, auto-registered by `AR.Editor.AddressablesSync`
+  for Assets/Sprites, Assets/Audio, Assets/VFX). Missing assets return null; use `Placeholder` sprites as fallback.
+- Pools: `AR.Pooling.ComponentPool<T>`; bullets in `BulletSystem`, enemies in `EnemySystem`, VFX in `VfxSystem`.
+- Korean text: TMP font `Resources/Fonts/MainFont` (NanumGothic, dynamic). Setup: menu `AR/Setup Project`.
+- Unity 6.6 ships `UnityEngine.UI.SafeArea`, so ours is `AR.UI.SafeAreaFitter`; check for name clashes with
+  `UnityEngine.UI` when adding UI types.
+- Compile check while the editor is open: `bash Tools/unity_check.sh --mark`, edit, let Unity refresh, then
+  `bash Tools/unity_check.sh --log`.
+
 ## Project layout
 ```
 Assets/Scripts/<Feature>/      namespace AR.<Feature>   (Story, Battle, Pooling, UI, Audio, Core, Input)
